@@ -3,7 +3,6 @@ package se.lexicon.dao;
 import org.springframework.stereotype.Repository;
 import se.lexicon.models.entity.Status;
 
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;

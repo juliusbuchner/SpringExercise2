@@ -18,7 +18,7 @@ public class Status {
     public Status() {
     }
 
-    public Status(int statusId, String statusCode, List<Car> cars) {
+    public Status(String statusCode, List<Car> cars) {
         this.statusId = statusId;
         this.statusCode = statusCode;
         this.cars = cars;

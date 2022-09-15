@@ -25,6 +25,7 @@ public class CommandLine implements CommandLineRunner {
         this.statusDAO = statusDAO;
         this.entityManager = entityManager;
     }
+    private AppUserRepository appUserRepository;
     private final EntityManager entityManager;
     private final AppUserDAOImpl appUserDAO;
     private final AddressDAOImpl addressDAO;
